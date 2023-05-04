@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated kindness_metamodel -->
+      <package
+            uri="http://www.example.org/kindness_metamodel_core"
+            class="kindness.KindnessPackage"
+            genModel="model/kindness_metamodel.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated kindnessDiagram -->
+      <package
+            uri="http://www.example.org/kindness_metamodel_diagram"
+            class="diagram.DiagramPackage"
+            genModel="model/kindnessDiagram.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated kindness_metamodel -->
+      <package
+            uri="http://www.example.org/kindness_metamodel_factors"
+            class="Psycho_Social_Factor.Psycho_Social_FactorPackage"
+            genModel="model/kindness_metamodel.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Factors -->
+      <package
+            uri="http://www.example.org/kindness_metamodel_factors"
+            class="Psycho_Social_Factor.FactorsPackage"
+            genModel="model/Factors.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Factors -->
+      <package
+            uri="http://www.example.org/kindness_metamodel_factors_social"
+            class="Psycho_Social_Factor.Social.SocialPackage"
+            genModel="model/Factors.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Factors -->
+      <package
+            uri="http://www.example.org/kindness_metamodel_factors_psychological"
+            class="Psycho_Social_Factor.Psychological.PsychologicalPackage"
+            genModel="model/Factors.genmodel"/>
+   </extension>
+</plugin>
